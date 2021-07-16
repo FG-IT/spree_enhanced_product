@@ -1,0 +1,6 @@
+<div data-hook="admin_product_form_edd">
+  <%= f.field_container :edd, class: ['form-group'] do %>
+    <%= f.label :edd, Spree.t(:edd) + '(format: 3-5,biz days)' %>
+    <%= f.text_field :edd, size: 16, class: 'form-control' %>
+  <% end %>
+</div>
